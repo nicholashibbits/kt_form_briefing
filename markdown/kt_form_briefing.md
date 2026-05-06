@@ -1,6 +1,6 @@
 # Knowledge Transfer — Form Briefing
 
-General overview to help guide initial exploration in `vets-website` relevant to work assigned to MMS. It is generated with AI. It is NOT a definitive guide.
+General overview to guide initial exploration in `vets-website` relevant to work assigned to MMS. It is generated with AI. It is NOT a definitive guide.
 
 ## Table of Contents
 
