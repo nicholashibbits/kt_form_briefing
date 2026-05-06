@@ -1,8 +1,6 @@
 # Knowledge Transfer — Form Briefing
 
-For the engineer taking over the DMC / PBB / LSS form portfolio.
-
-All file paths verified against `vets-website` `main` as of 2026-04-30. Issue links point to GitHub; status notes reflect that snapshot and may have moved since.
+General overview to help guide initial exploration in `vets-website` relevant to work assigned to MMS. It is generated with AI. It is NOT a definitive guide.
 
 ## Table of Contents
 
