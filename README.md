@@ -1,11 +1,5 @@
 # KT — Form Briefing
 
-Knowledge transfer docs for the DMC / PBB / LSS form portfolio in `vets-website`. Written for the engineer taking over. All file paths and issue links were verified against `vets-website` `main` as of 2026-04-30.
-
-> **Diagrams** are written in Mermaid and render inline on GitHub — no extra tooling needed.
-
----
-
 ## Start here
 
 | Document | What it is |
