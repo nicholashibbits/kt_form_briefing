@@ -49,7 +49,7 @@ flowchart TB
 
 ## Reading notes
 
-- **`Note` (yellow-orange)** is the form-wide pending change for #114166 plus the lurking `version: 3 → 4` SIP migration foot-gun at `config/form.js:100`.
-- **`C3d` and `C5f` are purple-dotted** — both are direct `showPdfFormAlignment` forks. C3d picks between `service-period` and `service-periods`; C5f hides `fasterClaimProcessing` entirely when the toggle is on.
-- **`C5c` is the relationship-driven split** — funeral director sees `deathCertificateRequired`; everyone else sees `deathCertificate`. Easy to break by editing one and forgetting the other.
-- **`Review` is yellow-orange** because #121603 (BPDS integration) will eventually rewire the submission path; today it still goes JSON → PDF → CentralMail → OCR → BPDS.
+- **The yellow-orange "Form-wide pending change: #114166" banner** captures the form-wide pending change plus the lurking `version: 3 → 4` SIP migration foot-gun at `config/form.js:100`.
+- **The two purple-dotted nodes** — `service-period vs service-periods` (chapter 3) and `fasterClaimProcessing HIDDEN when showPdfFormAlignment` (chapter 5) — are both direct `showPdfFormAlignment` forks. The first picks between `service-period` and `service-periods`; the second hides `fasterClaimProcessing` entirely when the toggle is on.
+- **The `deathCertificate vs deathCertificateRequired` node** is the relationship-driven split — funeral director sees `deathCertificateRequired`; everyone else sees `deathCertificate`. Easy to break by editing one and forgetting the other.
+- **`Review & Submit` is yellow-orange** because #121603 (BPDS integration) will eventually rewire the submission path; today it still goes JSON → PDF → CentralMail → OCR → BPDS.

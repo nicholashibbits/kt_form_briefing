@@ -70,7 +70,7 @@ flowchart TB
 
 ## Reading notes
 
-- **`OS1 → OS5` vs `OS1 → OS2`** is the v2/v3 fork. `vaDependentV2Flow !== true` is the third state that decides which side a Veteran lands on; see the picklist deep-dive in the main briefing.
-- **`AddSpouse` / `Add674`** are marked reopened because they each carry an open reopened issue (#113855 and #120876 respectively).
-- **`OS4` (backup path)** only appears when the pension API call fails — it's the manual fallback for `dependents_pension_check`.
-- **`PicklistFollowups`** is one logical node here but in code it's a router; see [686c-picklist-subflow.md](686c-picklist-subflow.md).
+- **`review-dependents` → `Picklist remove options` vs `review-dependents` → `options-selection`** is the v2/v3 fork. `vaDependentV2Flow !== true` is the third state that decides which side a Veteran lands on; see the picklist deep-dive in the main briefing.
+- **`Add Spouse` and `Add Student 18-23`** are marked reopened because they each carry an open reopened issue (#113855 and #120876 respectively).
+- **The `check-veteran-pension` backup-path node** only appears when the pension API call fails — it's the manual fallback for `dependents_pension_check`.
+- **`Picklist Removal Followups`** is one logical node here but in code it's a router; see [686c-picklist-subflow.md](686c-picklist-subflow.md).

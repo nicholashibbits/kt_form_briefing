@@ -51,7 +51,7 @@ flowchart TB
 
 ## Reading notes
 
-- **The `Note` banner** signals that #102564 (OMB version alignment) touches every chapter — `pensionPdfFormAlignment` gates content everywhere.
-- **`Intro`** is purple because the disability-rating alert (#121731) is gated behind `pensionRatingAlertLoggingEnabled`. Per VBA, the alert is informational — never block submission.
+- **The "Form-wide pending change: #102564" banner** signals that #102564 (OMB version alignment) touches every chapter — `pensionPdfFormAlignment` gates content everywhere.
+- **`IntroductionPage`** is purple because the disability-rating alert (#121731) is gated behind `pensionRatingAlertLoggingEnabled`. Per VBA, the alert is informational — never block submission.
 - **Chapter 5 sub-flows are heavy with array builders** (income, care, medical). Per-row schema changes need ID stability across save-in-progress.
 - **0969 is a required supplemental** for some 527EZ applicants — content changes here may need parallel edits in `src/applications/income-and-asset-statement/`.

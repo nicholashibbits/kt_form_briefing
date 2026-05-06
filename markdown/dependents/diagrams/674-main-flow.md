@@ -56,7 +56,7 @@ flowchart TB
 
 ## Reading notes
 
-- **`Note` (orange-bordered)** flags the form-wide reopened scope: #120876 PDF redesign will churn schemas, prefill transformers, and probably page modules.
-- **`Identity`** is purple-dotted because of the `vaDependentsNoSsn` hideIf gate (`config/chapters/674/studentIdentityPages.js:49`).
-- **`Pension`** is blue because the "claims/receives pension" answer participates in the pension-API fork that flows through the 686.
-- **The loop edge from `Remarks` back to `Summary`** is the array-builder pattern — Veteran can add another student or move on.
+- **The orange-bordered "Form-wide pending change" banner** flags the form-wide reopened scope: #120876 PDF redesign will churn schemas, prefill transformers, and probably page modules.
+- **`Identity & relationship`** is purple-dotted because of the `vaDependentsNoSsn` hideIf gate (`config/chapters/674/studentIdentityPages.js:49`).
+- **`Claims/receives pension?`** is blue because that answer participates in the pension-API fork that flows through the 686.
+- **The loop edge from `Remarks` back to `Students summary`** is the array-builder pattern — Veteran can add another student or move on.
